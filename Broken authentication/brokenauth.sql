@@ -30,8 +30,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `brokenauth` (
   `id` smallint(6) NOT NULL,
-  `email` varchar(60) DEFAULT NULL,
-  `password` varchar(60) DEFAULT NULL
+  `email` varchar(60) NOT NULL,
+  `password` varchar(60) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
