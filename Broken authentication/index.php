@@ -22,7 +22,7 @@ echo "Connected successfully";
     <main>
       <p>log in met je account</p>
       <form class="contact-form" action="signup.php" method="post">
-      <input type="text" name="username" placeholder="full name">
+      <input type="text" name="email" placeholder="email">
       <input type="password" name="password">
       <button type="submit" name="submit">log in</button>
       <p><a href="lostpsw.php">password reset</a></p>
